@@ -21,7 +21,7 @@ with st.sidebar:
     gauche, droite = st.columns(2)
 
     with gauche:
-        image = st.image("Assets/download.png", width=75)
+        image = st.image("./Assets/download.png", width=75)
         voir_plus = st.button('Voir plus', key='voir_plus')
 
     with droite:
