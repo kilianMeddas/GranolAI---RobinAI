@@ -26,7 +26,7 @@ Nos compteurs sont reliés au site de l'État, ce qui permet de mettre à jour a
 
 ###### prérequis interface.py ######
 
-installation module streamlit avec pip install streamlit
+installation module streamlit avec ```python pip install streamlit```
 
 Selon les appareils, pour run, nécessité d'aller dans le dossier.
 Exemple : /home/User/Desktop/GranolAI---RobinAI/RobinAI  (chemin du dossier)
