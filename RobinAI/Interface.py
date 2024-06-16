@@ -21,7 +21,7 @@ with st.sidebar:
     gauche, droite = st.columns(2)
 
     with gauche:
-        image = st.image("./Assets/download.png", width=75)
+        image = st.image("Assets/download.png", width=75)
         voir_plus = st.button('Voir plus', key='voir_plus')
 
     with droite:
@@ -55,6 +55,9 @@ if catalogue:
 
 # Afficher le contenu de la page en fonction de la page courante
 if st.session_state.current_page == 'Accueil':
+    _, milieu, _ = st.columns(3)
+    with milieu:
+        st.image('Assets/LOGO_RobinAI.png', width=225)
     st.header("RobinAI : votre assistant consommation", divider=True)
     st.subheader("Prévision de la consommation ")
 
